@@ -1,0 +1,87 @@
+
+
+.scrollable-body {
+  overflow-y: scroll;
+  top:0px;
+  position: absolute;
+  padding-bottom: 5%;
+  
+}
+
+.hbody {
+  background-image: url("https://t4.ftcdn.net/jpg/06/30/76/11/240_F_630761173_Hkeqf7J3DYfICjQQaMkTiSpCOK7XOq1q.jpg");
+  background-size: cover; 
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin: 0;
+  height: 100%;
+  
+}
+.student-profile{
+  height: 500px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+.student-profile form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  height: auto;
+}
+
+.student-profile label {
+  width: 100%;
+  margin: 10px 0;
+  color: #ccc;
+  z-index: 2;
+  
+
+}
+
+.student-profile input,
+.student-profile textarea {
+  z-index: 2;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.student-profile button {
+  background-color: #29335c;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  z-index: 2;
+
+}
+
+.student-profile button:hover {
+  background-color: #29335cac;
+}
+
+.student-profile button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
