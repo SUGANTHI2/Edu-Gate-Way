@@ -1,0 +1,55 @@
+/* Add this CSS to your existing StudentProfile.css */
+
+.profile-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px; /* Reduced padding for smaller input boxes */
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px; /* Reduced font size for smaller text */
+  }
+  
+  /* Reduced placeholder size */
+  .input-field::placeholder {
+    font-size: 12px;
+  }
+  
+  .dob-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dob-field {
+    flex: 1;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
